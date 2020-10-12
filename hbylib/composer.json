@@ -1,0 +1,20 @@
+{
+    "name": "hbylib/hbylib",
+    "license": "MIT",
+    "description": "hbylib",
+    "keywords": ["library", "dbbase"],
+    "homepage": "",
+    "authors": [
+        {
+            "name": "aloner",
+            "homepage": "https://github.com/zarte",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": { "Hbylib\\Hbylib\\Src": "./" }
+    }
+}
